@@ -1,11 +1,10 @@
-package Modul2;
+
 
 public class Account {
 	 private int accountNumber;
 	 private int currentBalance;
 	 
-	 
-	 //.....
+
 	 public void credit(int amt) {
 		 
 		 currentBalance = currentBalance + amt;
@@ -22,7 +21,6 @@ public class Account {
 	 
 	 }
 	 
-	 //Setter dan getter
 	 
 	 public void setCurrentBalance(int currentBalance) {
 		 this.currentBalance = currentBalance;
